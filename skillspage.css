@@ -1,0 +1,99 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #F9F9F9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #1E90FF; /* Blue */
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+/* Main Sections */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+h2 {
+  color: #1E90FF;
+  border-bottom: 3px solid #FFB400;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #444;
+  margin-top: 25px;
+}
+
+/* Lists */
+ul, ol {
+  text-align: left;
+  margin: 10px auto 20px;
+  padding-left: 40px;
+  font-size: 1.1em;
+}
+
+ul li, ol li {
+  margin-bottom: 8px;
+  transition: transform 0.2s;
+}
+
+ul li:hover, ol li:hover {
+  transform: translateX(5px);
+  color: #1E90FF;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+thead {
+  background: #1E90FF;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background: #f2f8ff;
+}
+
+tbody tr:hover {
+  background: #FFFAE6;
+}
+
+/* Extra Certificates */
+section ul li::before {
+  content: "✔ ";
+  color: #FFB400;
+  font-weight: bold;
+}

@@ -1,0 +1,112 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #F9F9F9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #1E90FF; /* Blue */
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+/* Main Container */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+  color: #1E90FF;
+  border-left: 5px solid #FFB400;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Form Styling */
+form {
+  text-align: left;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border: 2px solid #1E90FF;
+  outline: none;
+  box-shadow: 0 0 8px rgba(30,144,255,0.3);
+}
+
+/* Button */
+button {
+  background: #1E90FF;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #FFB400;
+  color: #333;
+  transform: scale(1.05);
+}
+
+/* Address Section */
+address {
+  margin-top: 20px;
+  font-style: normal;
+  line-height: 1.8;
+  background: #f2f8ff;
+  padding: 15px;
+  border-left: 4px solid #1E90FF;
+  border-radius: 8px;
+}
+
+address a {
+  color: #1E90FF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+address a:hover {
+  color: #FFB400;
+}

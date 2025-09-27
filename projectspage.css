@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Section Headings */
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #6a11cb;
+}
+
+/* Projects Container */
+article {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Titles */
+article h3 {
+  color: #2575fc;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* Project Description */
+article p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Links */
+article a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+article a:hover {
+  background: linear-gradient(90deg, #dd2476, #ff512f);
+}
